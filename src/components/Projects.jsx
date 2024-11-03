@@ -8,7 +8,7 @@ const Projects = () => (
     <div className="container">
       <div className="card-container">
         <a href="/" className="hero-image-container">
-          <img className="hero-image" src="images/creator/app-develbbbbbbbbb.jpg" alt="Web Project" />
+          <img className="hero-image" src="/images/app-develbbbbbbbbb.jpg" alt="Web Project" />
         </a>
         <main className="main-content">
           <p>Web Project: Building websites or web apps for online information or services.</p>
@@ -24,7 +24,7 @@ const Projects = () => (
           </div>
         </main>
         <div className="card-attribute">
-          <img src="images/creator/woman-with-freckles-her-face_1197721-99165.jpg" alt="avatar" className="small-avatar" />
+          <img src="/images/woman-with-freckles-her-face_1197721-99165.jpg" alt="avatar" className="small-avatar" />
           <p> <span><a href="#">ones Noa</a></span></p>
         </div>
       </div>

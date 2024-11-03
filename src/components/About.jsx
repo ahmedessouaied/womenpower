@@ -6,7 +6,7 @@ const About = () => (
     <center><p style={{ fontSize: '50px', padding: '100px' }}>About</p></center>
     <div className="about-content">
       <div className="side-image">
-        <img className="sideImage" src="images/e3.jpg" alt="About" />
+        <img className="sideImage" src="/images/e3.jpg" alt="About" />
       </div>
       <div className="side-text">
         <h2>What you think about us?</h2>

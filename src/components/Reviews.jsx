@@ -10,11 +10,11 @@ const Reviews = () => (
     <div className="rev-container">
       <div className="rev-card">
         <div className="identity">
-          <img src="images/creator/humanNotExist1.jpg" alt="Sophie Daniel" />
+          <img src="/images/humanNotExist1.jpg" alt="Sophie Daniel" />
           <p>Sophie Daniel</p>
           <h6>Java</h6>
           <div className="rating">
-            {[...Array(5)].map((_, i) => <img src="images/icon/star.png" key={i} alt="star" />)}
+            {[...Array(5)].map((_, i) => <img src="/images/star.png" key={i} alt="star" />)}
           </div>
         </div>
         <div className="rev-cont">

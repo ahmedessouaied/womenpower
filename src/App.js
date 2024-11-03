@@ -13,21 +13,15 @@ import Reviews from './components/Reviews';
 import ContactUs from './components/ContactUs';
 import Feedback from './components/Feedback';
 import Footer from './components/Footer'; 
+import SuccessStoryPage from './components/SuccessStoryPage';
+import LoginPage from './LoginPage';
 function App() {
   return (
     <div>
-       <div>
-      <Header />
-      <PopularSubjects />
-      <About />
-      <Portfolio />
-      <Projects />
-      <Services />
-      <Reviews />
-      <ContactUs />
-      <Feedback />
-      <Footer />
-    </div>
+       
+      <LoginPage />
+      
+    
     </div>
   );
 }

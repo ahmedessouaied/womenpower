@@ -9,7 +9,7 @@ const Services = () => (
     </div>
     <a href="subjects/computer_courses.html">
       <div className="s-card">
-        <img src="images/icon/computer-courses.png" alt="Computer Courses" />
+        <img src="/images/computer-courses.png" alt="Computer Courses" />
         <p>Free Online Computer Courses</p>
       </div>
     </a>

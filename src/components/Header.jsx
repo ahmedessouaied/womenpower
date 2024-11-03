@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import "./style.css";
+
 const Header = () => {
   useEffect(() => {
     const handleScroll = () => {
@@ -17,7 +18,7 @@ const Header = () => {
   return (
     <header id="header">
       <nav>
-        <div className="logo"><img src="images/logo.png" alt="logo" /></div>
+        <div className="logo"><img src="/images/logo.png" alt="logo" /></div>
         <ul>
           <li><a className="active" href="#home">Home</a></li>
           <li><a href="#portfolio_section">Portfolio</a></li>
@@ -30,7 +31,7 @@ const Header = () => {
           <a className="get-started" href="#chatBot_section">ChatBot</a>
           <a className="get-started" href="login.html">Get Started</a>
         </div>
-        <img src="images/menu.png" className="menu" alt="menu" />
+        <img src="/images/menu.png" className="menu" alt="menu" />
       </nav>
       <div className="head-container">
         <div className="quote">
@@ -38,7 +39,7 @@ const Header = () => {
           <h5>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits...</h5>
         </div>
         <div className="svg-image">
-          <img src="images/svg1.jpg" alt="svg" />
+          <img src="/images/svg1.jpg" alt="svg" />
         </div>
       </div>
     </header>
